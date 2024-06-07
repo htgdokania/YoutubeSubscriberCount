@@ -8,8 +8,8 @@
 #define OLED_RESET -1 // Reset pin # (or -1 if sharing Arduino reset pin)
 Adafruit_SSD1306 display(128,64,&Wire,OLED_RESET);
 
-const char* ssid = "SWATI";
-const char* password = "8585865764";
+const char* ssid = "WIFI_SSID";
+const char* password = "WIFI_PASSWORD";
 const char* host = "www.googleapis.com";
 const char* apiKey = "YOUTUBE_DATA_API_KEY"; // Replace with your API key
 const char* channelId = "YOUTUBE_CHANNEL_ID"; // Replace with your Channel ID note this is not same as channel name.
